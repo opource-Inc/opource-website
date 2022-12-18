@@ -1,10 +1,3 @@
-/**
- * jQuery || Zepto Parallax Plugin
- * @author Matthew Wagerfield - @wagerfield
- * @description Creates a parallax effect between an array of layers,
- *              driving the motion from the gyroscope output of a smartdevice.
- *              If no gyroscope is available, the cursor position is used.
- */
 ;(function($, window, document, undefined) {
 
   // Strict Mode
@@ -497,12 +490,6 @@
 
 })(window.jQuery || window.Zepto, window, document);
 
-/**
- * Request Animation Frame Polyfill.
- * @author Tino Zijdel
- * @author Paul Irish
- * @see https://gist.github.com/paulirish/1579671
- */
 ;(function() {
 
   var lastTime = 0;
